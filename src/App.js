@@ -7,10 +7,10 @@ import { Employeeform } from './components/Employeeform';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='Employeeapp-React'> 
     <Routes>
 
-      <Route path='/' exact element={ <Dashboard/> }/>
+      <Route  path='/' exact element={ <Dashboard/> }/>
       <Route path='/employeeform' exact element={ <Employeeform/> }/>
 
 
